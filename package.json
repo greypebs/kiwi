@@ -1,3 +1,4 @@
+// File: package.json
 {
   "name": "kiwi-app",
   "version": "1.0.0",
@@ -10,8 +11,8 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@react-three/drei": "^10.5.1",
-    "@react-three/fiber": "^9.2.0",
+    "@react-three/drei": "10.4.3",
+    "@react-three/fiber": "9.1.2",
     "expo": "~56.0.0",
     "expo-gl": "~15.1.7",
     "expo-status-bar": "~2.8.2",
@@ -19,6 +20,7 @@
     "react-native": "0.73.8",
     "react-native-dotenv": "^3.4.11",
     "react-native-gesture-handler": "~2.24.0",
+    "react-native-reanimated": "~3.10.0",
     "three": "^0.178.0"
   },
   "devDependencies": {
