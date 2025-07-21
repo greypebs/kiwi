@@ -1,7 +1,8 @@
 {
-  "name": "my-app",
+  "name": "kiwi-app",
   "version": "1.0.0",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -12,7 +13,7 @@
     "@react-three/drei": "^10.5.1",
     "@react-three/fiber": "^9.2.0",
     "expo": "~53.0.20",
-    "expo-gl": "~13.1.0",
+    "expo-gl": "11.4.0",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
     "react-native": "0.79.5",
@@ -22,6 +23,5 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
-  },
-  "private": true
+  }
 }
