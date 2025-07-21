@@ -12,7 +12,7 @@
     "@react-three/drei": "^10.5.1",
     "@react-three/fiber": "^9.2.0",
     "expo": "~53.0.20",
-    "expo-gl": "11.4.0",
+    "expo-gl": "~13.1.0",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
     "react-native": "0.79.5",
