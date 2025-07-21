@@ -4,7 +4,7 @@ import { Canvas, useFrame } from '@react-three/fiber/native';
 import { useGLTF, OrbitControls } from '@react-three/drei/native';
 import * as THREE from 'three';
 
-const modelUrl = 'KiwiScee.js'; // Direct GLB download
+const modelUrl = 'https://github.com/greypebs/kiwi/blob/800a040a42b27352613fbff90a5a54b99c1da47e/low_poly_kiwi_run.glb'; // Direct GLB download
 
 function Model({ color, isStartled }) {
   const { scene } = useGLTF(modelUrl);
