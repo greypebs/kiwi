@@ -4,7 +4,7 @@ import { StyleSheet, View, Text, TouchableOpacity, Alert, Platform, Modal, TextI
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import KiwiScene from './KiwiScene';
 
-const API_KEY = 'YOUR_HUGGINGFACE_API_KEY'; // Replace with your free Hugging Face API key (signup at hf.co)
+const API_KEY = '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'; // Replace with your free Hugging Face API key (signup at hf.co)
 const MODEL_URL = 'https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2'; // Example model
 
 export default function App() {
